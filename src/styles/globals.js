@@ -26,7 +26,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: ${(props) => props.theme.fonts.title};
     font-weight: 300;
   }
-  p, a, li {
+  p, a, li, span {
     font-weight: 100;
   }
   a {

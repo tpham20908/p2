@@ -7,7 +7,7 @@ import {
 	SectionTitle,
 } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection, GlowingButton } from './HeroStyles';
 
 const Hero = (props) => (
 	<Section row nopadding>
@@ -25,9 +25,13 @@ const Hero = (props) => (
 				frameworks / libraries.
 			</SectionText>
 
-			<Link href='#projects'>
+			{/* <Link href='#projects'>
 				<Button>Learn more</Button>
-			</Link>
+			</Link> */}
+
+			<GlowingButton href='#projects'>
+				<span>Learn more</span>
+			</GlowingButton>
 		</LeftSection>
 	</Section>
 );
