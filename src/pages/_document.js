@@ -35,8 +35,12 @@ export default class MyDocument extends Document {
 						href='https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap'
 						rel='stylesheet'
 					/>
+					<link
+						href='https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap'
+						rel='stylesheet'
+					></link>
 					{/* public/favicon.ico is used if not set */}
-					<link rel='shortcut icon' href='/images/TungPham_ico.png' />{' '}
+					<link rel='shortcut icon' href='/images/tp.ico' />
 				</Head>
 				<body>
 					<Main />

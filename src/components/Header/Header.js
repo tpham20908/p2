@@ -17,8 +17,11 @@ const Header = () => (
 		<Div1>
 			<Link href='/'>
 				<a style={{ display: 'flex', alignItems: 'center', color: '#fff' }}>
-					<DiCssdeck />
-					<span style={{ marginLeft: 4 }}>Portfolio</span>
+					{/* <DiCssdeck /> */}
+					<img
+						src='/images/tp.png'
+						style={{ height: 36, borderRadius: '50%' }}
+					/>
 				</a>
 			</Link>
 		</Div1>
@@ -40,6 +43,18 @@ const Header = () => (
 				</Link>
 			</li>
 		</Div2>
+
+		<Div3>
+			<SocialIcons href='https://github.com/tpham20908'>
+				<AiFillGithub size='3rem' />
+			</SocialIcons>
+			<SocialIcons href='https://www.linkedin.com/in/tung-pham-786076135/'>
+				<AiFillLinkedin size='3rem' />
+			</SocialIcons>
+			<SocialIcons href='#'>
+				<AiFillInstagram size='3rem' />
+			</SocialIcons>
+		</Div3>
 	</Container>
 );
 
