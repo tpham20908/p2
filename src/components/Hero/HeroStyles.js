@@ -33,7 +33,7 @@ export const GlowingButton = styled.a`
 		position: absolute;
 		inset: 0;
 		transition: 0.1s;
-		background: linear-gradient(45deg, #13adc7, #0f1624, #0f1624, #f46737);
+		background: linear-gradient(45deg, #945dd6, #0f1624, #0f1624, #13adc7);
 	}
 
 	&:hover::before {
