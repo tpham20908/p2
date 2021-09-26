@@ -32,7 +32,7 @@ const Projects = () => (
 					<BlogCard key={id}>
 						<Img src={image} />
 						<TitleContent>
-							<HeaderThree title>{title}</HeaderThree>
+							<HeaderThree title={title}>{title}</HeaderThree>
 						</TitleContent>
 						<Hr />
 						<CardInfo>{description}</CardInfo>
