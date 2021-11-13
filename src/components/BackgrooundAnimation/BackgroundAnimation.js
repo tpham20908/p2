@@ -1,7 +1,41 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const Img = styled.img`
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	@media ${(props) => props.theme.breakpoints.lg} {
+		width: 120px;
+		height: 120px;
+	}
+	@media ${(props) => props.theme.breakpoints.sm} {
+		width: 80px;
+		height: 80px;
+	}
+`;
+
+const Face = styled.div`
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(-50%, 50%);
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+	@media ${(props) => props.theme.breakpoints.lg} {
+		top: 0;
+		right: 0;
+		transform: translate(0%, 0%);
+	}
+`;
 
 const BackgroundAnimation = () => (
-	<div>
+	<div style={{ position: 'relative' }}>
+		<Face>
+			<Img src='/images/tp-face.png' />
+		</Face>
+
 		<svg
 			className='BgAnimation__svg'
 			viewBox='0 0 602 602'
