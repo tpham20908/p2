@@ -19,7 +19,7 @@ const Hero = (props) => (
 
 			<SectionText>
 				My name is Tung Pham, <br />
-				an analytical and passionate full-stack developer offering skills and
+				An analytical and passionate full-stack developer offering skills and
 				experience in coding, programming, web development, software
 				development, a vast knowledge of software, technical languages, and
 				frameworks / libraries.

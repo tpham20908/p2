@@ -83,27 +83,33 @@ export const UtilityList = styled.ul`
 	list-style-type: none;
 	padding: 0;
 	display: flex;
-	justify-content: space-around;
+	gap: 12px;
+	margin-right: 12px;
+	/* justify-content: space-around; */
+	justify-content: center;
 	margin: 2.5rem 0;
 `;
 
 export const ExternalLinks = styled.a`
 	color: #d4c0c0;
 	font-size: 1.6rem;
-	padding: 1rem 1.5rem;
-	background: #bb3030;
+	padding: 0.6rem 1.5rem;
+	background: #802020;
 	/* background: #d46737; */
-	border-radius: 15px;
+	border-radius: 5px;
 	transition: 0.5s;
 	&:hover {
 		/* background: #801414; */
-		background: #bb303077;
+		background: #80202077;
 	}
 `;
 
 export const TagList = styled.ul`
 	display: flex;
-	justify-content: space-around;
+	gap: 12px;
+	margin-right: 12px;
+	/* justify-content: space-around; */
+	justify-content: center;
 	padding: 2rem;
 `;
 export const Tag = styled.li`
