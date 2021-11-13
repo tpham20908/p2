@@ -5,6 +5,8 @@ export const Img = styled.img`
 	height: 100%;
 	object-fit: cover;
 	overflow: hidden;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 `;
 
 export const GridContainer = styled.section`
@@ -65,7 +67,8 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
 	width: 100%;
 	padding: 0 50px;
-	color: #e4e6e7;
+	/* color: #e4e6e7; */
+	color: #fff;
 	font-style: 2rem;
 	line-height: 24px;
 	text-align: justify;
@@ -88,11 +91,13 @@ export const ExternalLinks = styled.a`
 	color: #d4c0c0;
 	font-size: 1.6rem;
 	padding: 1rem 1.5rem;
-	background: #6b3030;
+	background: #bb3030;
+	/* background: #d46737; */
 	border-radius: 15px;
 	transition: 0.5s;
 	&:hover {
-		background: #801414;
+		/* background: #801414; */
+		background: #bb303077;
 	}
 `;
 
@@ -102,6 +107,7 @@ export const TagList = styled.ul`
 	padding: 2rem;
 `;
 export const Tag = styled.li`
-	color: #d8bfbf;
+	/* color: #d8bfbf; */
+	color: #fff;
 	font-size: 1.5rem;
 `;
