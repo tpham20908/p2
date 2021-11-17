@@ -10,13 +10,23 @@ export const projects = [
 		id: 0,
 	},
 	{
+		title: 'TP - Travel Advisor',
+		description:
+			"A gift for anyone who visites my website. You can search for Restaurants, Hotels, Atrractions near you or anywhere in the world. It's a must have app when on vacation.",
+		image: '/images/travel_advisor.png',
+		tags: ['React', 'RapidAPI'],
+		source: 'https://github.com/tpham20908/travel_advisor',
+		visit: 'https://tp-travel-advisor.netlify.app/',
+		id: 1,
+	},
+	{
 		title: 'Phone store E-Commerce',
 		description: 'Phone store (E-commerce) application.',
 		image: '/images/2.png',
 		tags: ['React', 'JavaScript'],
 		source: 'https://github.com/tpham20908/react-phone-store',
 		visit: 'https://tp-react-phone-store-paypal.netlify.app/',
-		id: 1,
+		id: 2,
 	},
 	{
 		title: 'COVID-19 tracker App',
@@ -25,7 +35,7 @@ export const projects = [
 		tags: ['React', 'RESTful'],
 		source: 'https://github.com/tpham20908/covid19-tracker',
 		visit: 'https://covid19-tracker-tp20908.netlify.app/',
-		id: 2,
+		id: 3,
 	},
 	{
 		title: 'MERN with CRUD',
@@ -34,7 +44,7 @@ export const projects = [
 		tags: ['Node', 'Express', 'MongoDB', 'React'],
 		source: 'https://github.com/tpham20908/planned-events',
 		visit: 'https://planned-events.netlify.app/',
-		id: 2,
+		id: 4,
 	},
 	{
 		title: 'Unichat',
@@ -43,28 +53,25 @@ export const projects = [
 		tags: ['React', 'ChatEngine', 'Firebase'],
 		source: 'https://google.com',
 		visit: 'https://google.com',
-		id: 3,
+		id: 5,
 	},
 ];
 
 export const TimeLineData = [
 	{
 		year: 2017,
-		text: 'Started my journey at John Abbott College in Montréal, Québec',
+		text: 'Desire to be Software Developer sent me back to College',
 	},
 	{
 		year: 2019,
-		text: 'Spent my internship period at Kaayu.ca as a full-stack developer',
+		text: 'Spent my internship period at Kaayu.ca as a Full-stack Developer',
 	},
 	{
 		year: 2019,
-		text: 'Finished school and worked as a Javascropt/full-stack developer at Hesper.io',
+		text: 'Finished school and worked as a Javascropt/Full-stack Developer at Hesper.io',
 	},
 	{
 		year: 2020,
-		text: 'Work for Dynamicly as a Application/full-stack developer',
+		text: 'Work for Dynamicly as a Application/Full-stack Developer',
 	},
-	// { year: 2020, text: 'Founded JavaScript Mastery', },
-	// { year: 2020, text: 'Shared my projects with the world', },
-	// { year: 2021, text: 'Started my own platform', },
 ];
