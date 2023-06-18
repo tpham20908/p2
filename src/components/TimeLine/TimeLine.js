@@ -70,12 +70,13 @@ const Timeline = () => {
 			<SectionDivider />
 			<br />
 			<SectionText>
-				Fueled by high energy levels and boundless enthusiasm, I’m easily
-				inspired and more than willing to follow my fascinations wherever they
-				take me. I’m passionate, expressive, multi-talented spirit with a
-				natural ability to entertain and inspire. I’m never satisfied to just
-				come up with ideas. Instead I have an almost impulsive need to act on
-				them.
+				Driven by relentless energy and unwavering enthusiasm, I am constantly
+				fueled by inspiration and driven to explore new paths. As a passionate
+				and expressive individual with a diverse range of talents, I possess a
+				natural ability to captivate and motivate others. Merely generating
+				ideas is never enough for me—I possess an innate drive to transform them
+				into tangible actions. I am constantly propelled by an insatiable need
+				to bring my visions to life and make a lasting impact.
 			</SectionText>
 
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
